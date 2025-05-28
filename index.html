@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pomodor</title>
+    <link rel="icon" type="image/png" href="./img/pomadorLogo.png">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+<div class="vraper">
+    <header> 
+        <section class="time_text">
+            <p>Worck:<span id="Worck"> 25</span></p>
+            <p>Breack:<span id="Breack"> 5</span></p>
+            <p>Relax:<span id="Relax"> 30</span></p>
+        </section>
+        <section class="button_area">
+            <button id="plusbtn" class="button">+</button>
+            <button id="minusbtn" class="button">-</button>
+        </section>
+    </header>
+    <main>
+        <section class="section_tomat">
+            <div class="wraperimg">
+                <img  src="./img/pomadorbg.png" alt="tomatbg">
+                <div class="subdiv"></div>
+                <div class="subdiv"> </div>
+                <div class="subdiv"></div>
+            </div>
+           
+        <p id="timer">25</p>
+        <div id="strelement"></div> 
+        <canvas id="tomatslap"></canvas>
+        
+        </section>
+    
+        <button class="button btn">reset</button>
+    </main>
+</div>
+<script src="./main.js"></script>
+</body>
+</html>
